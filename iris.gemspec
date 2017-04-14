@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'iris/version'
 
 Gem::Specification.new do | gem |
-  gem.version         = iris::VERSION
+  gem.version         = Iris::VERSION
   gem.license         = 'MS-RL'
 
   gem.name            = 'iris'
