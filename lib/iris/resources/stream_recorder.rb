@@ -9,5 +9,6 @@ module Iris
     field :recording_state
     field :stream_id
     field :stream_uuid
+    field :realm_uuid
   end
 end
