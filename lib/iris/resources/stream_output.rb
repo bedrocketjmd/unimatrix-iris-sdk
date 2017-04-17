@@ -8,6 +8,7 @@ module Iris
     field :url
     field :state
     field :stream_id
+    field :stream_uuid
     field :authentication_username
     field :authentication_password
   end

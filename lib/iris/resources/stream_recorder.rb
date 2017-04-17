@@ -8,5 +8,6 @@ module Iris
     field :state
     field :recording_state
     field :stream_id
+    field :stream_uuid
   end
 end

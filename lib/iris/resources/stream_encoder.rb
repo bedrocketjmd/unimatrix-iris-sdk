@@ -6,5 +6,6 @@ module Iris
     field :uuid
     field :state
     field :stream_id
+    field :stream_uuid
   end
 end
