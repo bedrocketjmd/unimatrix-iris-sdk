@@ -5,6 +5,7 @@ module Iris
     field :updated_at
     field :uuid
     field :name
+    field :stream_type
     field :realm_uuid
 
     has_many :stream_inputs
