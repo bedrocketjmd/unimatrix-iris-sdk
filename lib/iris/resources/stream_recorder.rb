@@ -7,6 +7,7 @@ module Iris
     field :duration
     field :state
     field :recording_state
+    field :duration_limit
     field :stream_id
     field :stream_uuid
   end
