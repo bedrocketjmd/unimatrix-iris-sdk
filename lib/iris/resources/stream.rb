@@ -12,5 +12,7 @@ module Iris
     has_many :stream_outputs
     has_many :stream_encoders
     has_many :stream_recorders
+    has_many :stream_transmutators
+    has_many :stream_transcribers
   end
 end
