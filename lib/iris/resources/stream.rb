@@ -8,11 +8,11 @@ module Iris
     field :stream_type
     field :realm_uuid
 
-    has_many :stream_inputs
-    has_many :stream_outputs
-    has_many :stream_encoders
-    has_many :stream_recorders
-    has_many :stream_transmutators
-    has_many :stream_transcribers
+    has_many :inputs
+    has_many :outputs
+    has_many :encoders
+    has_many :recorders
+    has_many :transmutators
+    has_many :transcribers
   end
 end

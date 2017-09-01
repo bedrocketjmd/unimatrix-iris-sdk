@@ -1,13 +1,12 @@
 module Iris
-  class StreamRecorder < Base
+  class Transcriber < Base
     field :id
     field :created_at
     field :updated_at
     field :uuid
-    field :duration
     field :state
-    field :recording_state
-    field :duration_limit
+    field :minimum_segment_duration
+    field :maximum_segment_duration
     field :stream_id
     field :stream_uuid
   end
