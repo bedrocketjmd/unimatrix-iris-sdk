@@ -1,5 +1,5 @@
 module Iris
-  class StreamOutput < Base
+  class Output < Base
     field :id
     field :created_at
     field :updated_at

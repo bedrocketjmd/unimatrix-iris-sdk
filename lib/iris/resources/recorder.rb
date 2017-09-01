@@ -1,12 +1,13 @@
 module Iris
-  class StreamEncoder < Base
+  class Recorder < Base
     field :id
     field :created_at
     field :updated_at
     field :uuid
+    field :duration
     field :state
-    field :url
-    field :region
+    field :recording_state
+    field :duration_limit
     field :stream_id
     field :stream_uuid
   end
